@@ -19,7 +19,7 @@
       // and print their metadata with console.log()
       function listNFTs () {
         for(let i = 0; i < NFTcollection.length; i++){
-            console.log("name: \t" + NFTcollection[i].name);
+            console.log("name: \t\t" + NFTcollection[i].name);
             console.log("eyecolour: \t" + NFTcollection[i].eyecolour);
             console.log("background: " + NFTcollection[i].background);
             console.log("rarity: \t" + NFTcollection[i].rarity);
